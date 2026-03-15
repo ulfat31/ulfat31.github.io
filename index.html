@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ulfat Sumaitah— Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Intro Animation -->
+  <div id="intro">
+    <h1 class="intro-line" id="hi">Hi</h1>
+    <h2 class="intro-line" id="name">I'm <span>Ulfat Sumaitah</span></h2>
+    <div class="intro-line" id="ican-container">
+      <p id="ican">I can <span class="scroll-skill" id="skill"></span></p>
+    </div>
+    
+    <!-- Windows-style Loading Animation -->
+    <div class="loading-container">
+      <div class="windows-loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header>
+    <!-- Floating shapes for minimal motion aesthetic -->
+    <div class="ps-shape ps-circle"></div>
+    <div class="ps-shape ps-cross"></div>
+    <div class="ps-shape ps-square"></div>
+    <div class="ps-shape ps-triangle"></div>
+    <div class="ps-shape ps-circle" style="left: 70%; animation-delay: 1.5s;"></div>
+    <div class="ps-shape ps-square" style="left: 85%; animation-delay: 2.5s;"></div>
+
+    <nav>
+      <div class="nav-brand">
+        <img src="Photos/Screenshot_2026-03-14_124338.png"" alt="Ulfat Sumaitah" class="nav-profile-pic" />
+        <strong>Ulfat Sumaitah</strong>
+      </div>
+      <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#video-cv">Resume</a>
+        <a href="#experience">Experience</a>
+        <a href="#activities">Activities</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Ulfat Sumaitah</h1>
+        <p class="subtitle"><strong> Science and Engineering Student</strong></p>
+        <p class="tagline">
+         Computer Science and Engineering student at American International University Bangladesh with a strong interest in programming, technology, and problem solving. I am working toward becoming a software engineer and building useful software solutions.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <img src="Photos/Screenshot_2026-03-14_124338.png" alt="Profile Photo" />
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title">About</h2>
+      <div class="about-text">
+
+        <p>
+    My name is Ulfat Sumaitah and I am a third year Computer Science and Engineering student at American International University Bangladesh. I am passionate about information technology and enjoy learning about programming, software development, and new technologies. During my studies I have been building my technical skills through academic work and projects that help me understand real world problem solving.
+
+    My goal is to become a software engineer and contribute to building practical and efficient software. This portfolio presents some of my academic work, projects, and learning experiences as I continue developing my skills in the field of computer science.
+    </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="skill-item" data-skill="cpp"><span>C++</span></div>
+        <div class="skill-item" data-skill="java"><span>Java</span></div>
+        <div class="skill-item" data-skill="git"><span>Git</span></div>
+        <div class="skill-item" data-skill="htmlcss"><span>HTML & CSS</span></div>
+        <div class="skill-item" data-skill="javascript"><span>JavaScript</span></div>
+      </div>
+      
+      <!-- Skill Descriptions Container -->
+      <div class="skill-description-container">
+        <div class="skill-description" data-skill="cpp">
+          I have a strong understanding and academic background in C++ and use the language to write efficient, reliable programs. My coursework and projects helped me build a deep understanding of memory management, algorithms, and object oriented design, which I apply confidently in problem solving and system level work.
+        </div>
+        <div class="skill-description" data-skill="java">
+          I have a solid command of Java and use it to develop structured, maintainable applications. My experience with object oriented principles allows me to design clean architectures that scale well and behave predictably.
+        </div>
+        <div class="skill-description" data-skill="cv">
+          I have a growing foundation in computer vision and enjoy working with image processing and feature extraction techniques. I use these tools to help computers analyze and understand visual data in meaningful ways.
+        </div>
+        <div class="skill-description" data-skill="embedded">
+          I have practical experience working with embedded systems where hardware and software meet. I enjoy building devices that sense, react, and operate independently, translating real world problems into efficient embedded solutions.
+        </div>
+        <div class="skill-description" data-skill="linux">
+          I am comfortable working in Linux environments and frequently use it for development, configuration, and system management. Command line workflows, package control, and process handling are all natural parts of my routine.
+        </div>
+        <div class="skill-description" data-skill="networking">
+          I understand core networking concepts such as routing, addressing, and protocols. I can work with configuration tasks and analyze how systems communicate across different layers of a network.
+        </div>
+        <div class="skill-description" data-skill="git">
+          I use Git confidently to track progress, manage branches, and keep projects organized. It helps me maintain clean workflows and collaborate effectively when needed.
+        </div>
+        <div class="skill-description" data-skill="htmlcss">
+          I create clean, responsive website layouts using HTML and CSS. I focus on structure, readability, and visual clarity while ensuring the design adapts well across devices.
+        </div>
+        <div class="skill-description" data-skill="javascript">
+          I use JavaScript to add interactivity and dynamic behavior to websites. It helps me bring static pages to life with practical features that enhance the user experience.
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <article>
+        <h3>Student Management System (C++)</h3>
+        <p>Console-based CRUD system for managing student records using file handling and OOP.</p>
+      </article>
+      <article>
+        <h3>Snake Game (Java)</h3>
+        <p>Classic snake game with smooth keyboard controls and a scoring system.</p>
+         <div class="project-gallery">
+        <img src="Photos/image.png" alt="Snake Game Screenshot 1">
+        <img src="Photos/image2.png" alt="Snake Game Screenshot 2">
+        <img src="Photos/image3.png" alt="Snake Game Screenshot 3">
+         </div>
+      </article>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>This very website — clean, minimal, and responsive design built using HTML, CSS, and JavaScript.</p>
+      </article>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-item">
+        <h3>Academic Instructor</h3>
+        <p>
+          Have been tutoring students from different grades for the past two years, helping them improve their understanding of various subjects.
+        Also provide paid home tutoring, including teaching my younger sister and helping her with academic subjects and homework.
+    Frequently assist classmates with programming concepts and problem-solving techniques.
+    Developed strong ability to explain complex topics in a simple and clear way.
+    Served as a class leader multiple times, assisting instructors and supporting classmates.
+    Coordinated group activities and maintained effective communication within the class.
+        </p>
+      </div>
+    </section>
+
+    
+<!-- Extracurricular Activities Section -->
+<section id="activities">
+  <h2 class="section-title">Extracurricular Activities</h2>
+
+  <!-- Painting Gallery -->
+  <h3 class="activity-subtitle">Canvas Painting & Mandala Art</h3>
+
+<div class="project-gallery">
+  <img src="Photos/pic1.jpg" alt="Mandala Painting 1">
+  <img src="Photos/pic2.jpg" alt="Mandala Painting 2">
+  <img src="Photos/pic3.jpg" alt="Mandala Painting 3">
+  <img src="Photos/pic4.jpg" alt="Mandala Painting 4">
+  <img src="Photos/pic5.jpg" alt="Mandala Painting 5">
+  <img src="Photos/pic6.jpg" alt="Mandala Painting 6">
+  <img src="Photos/pic7.jpg" alt="Mandala Painting 7">
+</div>
+
+  <p class="activity-text">
+    Enjoy creating artwork through canvas painting and mandala art with a focus on detailed pattern design,
+    color harmony, and creative visual expression.
+  </p>
+
+
+  <!-- Other Activities -->
+  <h3 class="activity-subtitle">Other Activities</h3>
+
+  <ul class="activity-list">
+    <li><strong>Singing & Vocal Performance</strong> – Passionate about singing and participated in cultural activities during school and college. Developed rhythm, vocal expression, and stage confidence.</li>
+
+    <li><strong>Photo & Video Editing</strong> – Experienced with Capcut, Adobe After Effects, Filmora and Alight Motion. Participated in a video editing competition and secured a winning position.</li>
+
+    <li><strong>Content Creation & Influencing</strong> – Create cover videos and beauty related content on Instagram. Collaborated with YesStyle as a micro influencer and developed skills in branding and audience engagement.</li>
+
+    <li><strong>Tutoring & Mentoring</strong> – Tutored junior students for the past three years, helping them understand academic subjects and difficult concepts.</li>
+  </ul>
+
+
+  <!-- Achievements -->
+
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements">
+  <h2 class="section-title">Achievements & Certifications</h2>
+
+  <div class="achievement-grid">
+
+    <div class="achievement-card">
+      <img src="Photos/ciscoCert.png" alt="Cisco Certificate">
+      <p>
+        Successfully completed the IT Essentials course from Cisco Networking Academy, gaining knowledge of computer hardware, operating systems, networking basics and troubleshooting.
+      </p>
+    </div>
+
+    <div class="achievement-card">
+      <img src="Photos/abriti.png" alt="Recitation Course">
+      <p>
+        Completed a 6 month course on Recitation, Voice Training and Presentation organized by Kobita.
+      </p>
+    </div>
+
+    <div class="achievement-card">
+      <img src="Photos/managementWorkshop.png" alt="Management Workshop">
+      <p>
+        Participant of the 21st Century Management Skills and Team Building workshop organized by Bangladesh College Photography Association.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>ulfatsumaitah31@gmail.com | +880 17 3273 1678</p>
+      <div class="social-links">
+        
+        <a href="https://github.com/ulfat31" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.instagram.com/ulfi_kulfi" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© 2026 Ulfat Sumaitah — Built with care.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
